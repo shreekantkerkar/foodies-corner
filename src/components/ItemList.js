@@ -25,15 +25,16 @@ const ItemList = ({ items }) => {
           <div className="w-9/12">
             <div className="py-2">
               <span className="font-bold">{item.card.info.name}</span>
-              
             </div>
             <span className="font-bold">
-                 ₹{" "}
-                {item.card.info.price
-                  ? item.card.info.price / 100
-                  : item.card.info.defaultPrice / 100}
-              </span>
-            <p className="text-xs text-gray-400">{item.card.info.description}</p>
+              ₹{" "}
+              {item.card.info.price
+                ? item.card.info.price / 100
+                : item.card.info.defaultPrice / 100}
+            </span>
+            <p className="text-xs text-gray-400">
+              {item.card.info.description}
+            </p>
           </div>
           <div className="w-3/12 p-4">
             <div className="absolute text-white ">

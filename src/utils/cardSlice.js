@@ -11,7 +11,7 @@ const cardSlice = createSlice({
       state.items.push(action.payload);
     },
     removeItem: (state) => {
-      state.items.pop();
+      state.items.pop(0);
     },
     clearCart: (state) => {
 
@@ -22,6 +22,9 @@ const cardSlice = createSlice({
   },
 });
 
+
+// here we are extracting particulat actions and exporting them from 
+// cardSlice.actions
 export const { addItem, removeItem, clearCart } = cardSlice.actions;
 
 export default cardSlice.reducer;

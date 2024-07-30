@@ -21,10 +21,9 @@ export const Header = () => {
   return (
     <div className=" shadow-lg text-xl font-[Poppins]  bg-white">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
-        
-          <Link to="/"><img className="w-28 m-2 cursor-pointer" src={app_logo} alt="Logo"/></Link>
-          
-
+        <Link to="/">
+          <img className="w-28 m-2 cursor-pointer" src={app_logo} alt="Logo" />
+        </Link>
 
         {/* <p className="logo-side">Pune , Maharashtra , India</p> */}
 

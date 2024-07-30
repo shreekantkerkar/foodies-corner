@@ -6,7 +6,7 @@
 - Connect our store to app
 - We will create a Slice(cartSlice)
 - dispatch(action)
-- Selector
+- Selector -> To fetch the data from our Redux Store
 
 #Setting Up Testing in our App
  - Install React Testing Library 
